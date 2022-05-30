@@ -1,0 +1,34 @@
+
+
+.aboutcontainer {
+    background-image: url(../../assets/images/restaurant2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    div {
+        padding: 10px;
+        width: 60vw;
+        border-radius: 10px;
+        margin: auto;
+        background-color: rgba(255,255,255,0.5);
+        backdrop-filter: blur(6px);
+        transform: translateY(20vh);
+        display: grid;
+        gap: 1rem;
+        h4 {
+            font-size: 1.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+        }
+        p {
+            font-size: 1.1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img {
+            width: 90%;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+
+
+.restaurantscontainer {
+    
+    display: grid;
+    background-color: tan;
+    width: 100%;
+    .selectcontainer {
+        width: 50%;
+        margin: auto;
+        h4 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            padding: 10px;
+        }
+        select {
+            width: 20%;
+            border: none;
+            option {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+    .infocontainer {
+        display: grid;
+        width: 40%;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        background-color: rgba(255,255,255,0.5);
+        backdrop-filter: blur(6px);
+        border-radius: 10px;
+        margin-top: 10px;
+        -webkit-box-shadow: -5px 5px 10px 5px rgba(0,0,0,0.5); 
+        box-shadow: -5px 5px 10px 5px rgba(0,0,0,0.5);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      img {
+          width: 100%;
+          padding: 10px;
+      }
+    }
+    .hidden {
+        display: none;
+    }
+    
+}
